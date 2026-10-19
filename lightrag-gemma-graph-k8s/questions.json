@@ -1,0 +1,7 @@
+[
+  {"question":"김민수가 책임자인 프로젝트에서 사용하는 시스템의 공급사와 그 공급사의 기술지원 담당자는 누구인가?", "expected":"차세대 주문관리 프로젝트 → 오로라ERP → 새봄소프트 → 정하늘", "sources":["01_projects.txt","02_systems.txt","03_operations.txt"]},
+  {"question":"박지영이 책임자인 프로젝트에서 사용하는 시스템의 공급사와 연간 유지보수 계약금액은?", "expected":"고객분석 프로젝트 → 루멘분석플랫폼 → 다온데이터, 연간 1800만 원", "sources":["01_projects.txt","02_systems.txt","03_operations.txt"]},
+  {"question":"은하스토리지에 장애가 발생하면 어떤 프로젝트가 영향을 받고, 각 프로젝트의 운영 담당자 중 누구에게 통보해야 하는가?", "expected":"차세대 주문관리 프로젝트: 이서준, 고객분석 프로젝트: 최유진. 오로라ERP와 루멘분석플랫폼이 은하스토리지를 공유한다.", "sources":["01_projects.txt","02_systems.txt","03_operations.txt"]},
+  {"question":"김민수가 책임자인 프로젝트의 시스템이 사용하는 데이터베이스의 DBMS, 백업 시각, 백업 보관 기간은?", "expected":"오로라ERP → 주문DB, MySQL, 매일 오전 2시, 30일", "sources":["01_projects.txt","02_systems.txt","03_operations.txt"]},
+  {"question":"정하늘의 전화번호와 새봄소프트 계약 종료일은?", "expected":"제공된 문서에 없어 확인할 수 없다고 답해야 한다.", "sources":["03_operations.txt"]}
+]
